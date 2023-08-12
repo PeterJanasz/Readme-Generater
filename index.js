@@ -4,6 +4,106 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your title!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your title!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your title!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your title!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your title!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your title!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your title!');
+                return false;
+            }
+        }
+    },
+
+    
     
 ];
 
