@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?'
+        message: 'What is the title of your project?',
         validate: titleInput => {
             if (titleInput) {
                 return true;
@@ -20,84 +20,84 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?'
+        name: 'githubUsername',
+        message: 'What is your GitHub username?',
         validate: titleInput => {
             if (titleInput) {
                 return true;
             }
             else {
-                console.log('Please enter your title!');
+                console.log('Please enter your Github username!');
                 return false;
             }
         }
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?'
+        name: 'email',
+        message: 'What is youre email address?',
         validate: titleInput => {
             if (titleInput) {
                 return true;
             }
             else {
-                console.log('Please enter your title!');
+                console.log('Please enter your email address!');
                 return false;
             }
         }
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?'
+        name: 'why',
+        message: 'Why did you build this project?',
         validate: titleInput => {
             if (titleInput) {
                 return true;
             }
             else {
-                console.log('Please enter your title!');
+                console.log('Please enter why you built this project!');
                 return false;
             }
         }
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?'
+        name: 'what',
+        message: 'What problems does your project solve?',
         validate: titleInput => {
             if (titleInput) {
                 return true;
             }
             else {
-                console.log('Please enter your title!');
+                console.log('Please enter what problems your project solves!');
                 return false;
             }
         }
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?'
+        name: 'installation',
+        message: 'Please provide installation instructions for you project.',
         validate: titleInput => {
             if (titleInput) {
                 return true;
             }
             else {
-                console.log('Please enter your title!');
+                console.log('Please enter installation instructions for you project!');
                 return false;
             }
         }
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?'
+        name: 'usage',
+        message: 'Please provide instructions on how to use you application.',
         validate: titleInput => {
             if (titleInput) {
                 return true;
             }
             else {
-                console.log('Please enter your title!');
+                console.log('Please enter instructions on how to use you application!');
                 return false;
             }
         }
@@ -111,7 +111,12 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
 
+    return inquirer.prompt(questions)
+    .then(readmeData => {
+        return readmeData;
+    })
+}
 // Function call to initialize app
 init();
