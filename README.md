@@ -1,4 +1,4 @@
-# f
+# e
 
 [![License](https://img.shields.io/badge/License-apache-blue.svg)](https://opensource.org/licenses/apache)
 
@@ -7,32 +7,42 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-[![License](https://opensource.org/licenses/apache)]
+* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Screenshot](#screenshot)
 * [Questions](#questions)
+
 
 ## [Description](#table-of-contents)
 
-f
+e
 
-f
+e
 
 ## [Installation](#table-of-contents)
 
-f
+e
 
 ## [Usage](#table-of-contents)
 
-f
+e
 
-[![License](https://img.shields.io/badge/License-apache-blue.svg)](https://opensource.org/license/apache)
+## [License](#table-of-contents)
+    The application is covered under the following license:
+    - [apache] https://opensource.org/licenses/apache 
+    
 
 ## [Contributing](#table-of-contents)
 
+e
+
 ## [Tests](#table-of-contents)
 
-f
+e
+
+## [Screenshot](#table-of-contents)
+![Screenshot of app]
 
 ## [Questions](#table-of-contents)
 
@@ -40,7 +50,7 @@ Please contact me with any questions!
 
 Contact information:
 
-[GitHub](https://github.com/f)
+[GitHub](https://github.com/e)
 
-[Email: f](mailto:f)
+[Email: e](mailto:e)
 

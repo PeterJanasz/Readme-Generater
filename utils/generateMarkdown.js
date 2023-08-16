@@ -12,7 +12,16 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license !== 'None!') {
-    return `[![License](https://opensource.org/licenses/${license})]`;
+    return `- [${license}] https://opensource.org/licenses/${license} `;
+  } else {
+    return '';
+  }
+}
+
+//Create License TOC
+function renderLicenseTOC(license) {
+  if(license !== 'None!') {
+    return '* [License](#license)';
   } else {
     return '';
   }
@@ -22,7 +31,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license !== 'None!') {
-    return `[![License](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/license/${license})`;
+    return `## [License](#table-of-contents)
+    The application is covered under the following license:
+    ${renderLicenseLink(license)}
+    `;
   } else {
     return '';
   }
@@ -40,10 +52,12 @@ ${renderLicenseBadge(data.license)}
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-${renderLicenseLink(data.license)}
+${renderLicenseTOC(data.license)}
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Screenshot](#screenshot)
 * [Questions](#questions)
+
 
 ## [Description](#table-of-contents)
 
@@ -63,9 +77,14 @@ ${renderLicenseSection(data.license)}
 
 ## [Contributing](#table-of-contents)
 
+${data.contribution}
+
 ## [Tests](#table-of-contents)
 
 ${data.test}
+
+## [Screenshot](#table-of-contents)
+![Screenshot of app]
 
 ## [Questions](#table-of-contents)
 

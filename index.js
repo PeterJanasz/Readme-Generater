@@ -54,6 +54,12 @@ const questions = [
         message: 'Which license will you use for your project?',
         choices: ['apache', 'mit', 'None!']
     },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: "What are the contribution guidelines?",
+        
+    }
 
 ];
 
