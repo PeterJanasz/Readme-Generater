@@ -1,32 +1,34 @@
-# e
+# README.md generator
 
 [![License](https://img.shields.io/badge/License-apache-blue.svg)](https://opensource.org/licenses/apache)
 
 ## Table-of-Contents
 
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Screenshot](#screenshot)
-* [Questions](#questions)
+- [README.md generator](#readmemd-generator)
+  - [Table-of-Contents](#table-of-contents)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Screenshot](#screenshot)
+  - [Questions](#questions)
 
 
 ## [Description](#table-of-contents)
 
-e
+Created a readme.md file generator for users projects.
 
-e
+Creating a markdown readme.md can be time consuming, this app will allow users to streamline this process by inputting information to their readme file to save time.
 
 ## [Installation](#table-of-contents)
 
-e
+Clone code from the github link at the bottom and open the file in the integrated terminal by typing "node index.js".
 
 ## [Usage](#table-of-contents)
 
-e
+Enter the iinformation prompted in the terminal.
 
 ## [License](#table-of-contents)
     The application is covered under the following license:
@@ -35,14 +37,14 @@ e
 
 ## [Contributing](#table-of-contents)
 
-e
+None
 
 ## [Tests](#table-of-contents)
 
-e
+Run the app once entering all the required information.
 
 ## [Screenshot](#table-of-contents)
-![Screenshot of app]
+![Screenshot of app](utils/Screenshot%202023-08-16%20at%2012.09.47%20PM.png)
 
 ## [Questions](#table-of-contents)
 
@@ -50,7 +52,7 @@ Please contact me with any questions!
 
 Contact information:
 
-[GitHub](https://github.com/e)
+[GitHub](https://github.com/PeterJanasz)
 
-[Email: e](mailto:e)
+[Email: petertjanasz@gmail.com](mailto:petertjanasz@gmail.com)
 

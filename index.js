@@ -21,14 +21,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'why',
-        message: 'Why did you build this project?',
+        name: 'what',
+        message: 'What problems does your project solve?',
 
     },
     {
         type: 'input',
-        name: 'what',
-        message: 'What problems does your project solve?',
+        name: 'why',
+        message: 'Why did you build this project?',
 
     },
     {
@@ -57,8 +57,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: "What are the contribution guidelines?",
-        
+        message: "What are the contribution guidelines?"
     }
 
 ];
@@ -66,15 +65,15 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(fileName, data);
-  }
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer
         .prompt(questions)
-        .then(readmeData => {writeToFile('README.md', generateMarkdown(readmeData))}) 
+        .then(readmeData => { writeToFile('README.md', generateMarkdown(readmeData)) })
         .catch(error => {
-            if(error){
+            if (error) {
                 throw error
             }
         })
