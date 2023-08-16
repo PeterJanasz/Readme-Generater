@@ -30,6 +30,8 @@ Clone code from the github link at the bottom and open the file in the integrate
 
 Enter the iinformation prompted in the terminal.
 
+[Walkthrough video](https://drive.google.com/file/d/19yV-VazzVUUOQgN1JCHovgoZoXLmArmx/view)
+
 ## [License](#table-of-contents)
     The application is covered under the following license:
     - [apache] https://opensource.org/licenses/apache 
