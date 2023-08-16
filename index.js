@@ -43,6 +43,18 @@ const questions = [
         message: 'Please provide instructions on how to use you application.',
 
     },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Please provide instructions on how to test the app.'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Which license will you use for your project?',
+        choices: ['apache', 'mit', 'None!']
+    },
+
 ];
 
 // TODO: Create a function to write README file
